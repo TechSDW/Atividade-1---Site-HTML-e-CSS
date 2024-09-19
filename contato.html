@@ -31,7 +31,6 @@
 
             .conteudo{
                 display: grid;
-                grid-template-columns: auto;
                 text-align: left;
                 border-top: 1px solid gray;
             }
@@ -55,21 +54,16 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque sint cupiditate autem, officiis illo praesentium sunt earum iure? Voluptatem necessitatibus ipsum ratione totam! Saepe rerum at laborum mollitia quae.</p>
             
             <div class="conteudo">
-                <div>
-                    <p>Seu e-mail:</p>
-
-                    <textarea name="" id=""></textarea>
-                </div>
-                <div>
-                    <p>Assunto</p>
-                    <textarea name="" id=""></textarea>
-                </div>
-                <div>
-                    <p>Descrição</p>
-                    <textarea name="" id=""></textarea>
-                </div>
+                <form action="">
+                    <p>E-mail:</p>
+                    <input type="text">
+                    <p>Assunto:</p>
+                    <input type="text">
+                    <p>Descrição:</p>
+                    <input type="text"><br><br>
+                    <input type="submit">
+                </form>
             </div>
-            <button>Enviar</button>
         </main>
 
         <footer>
