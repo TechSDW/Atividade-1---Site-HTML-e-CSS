@@ -21,7 +21,7 @@
             main{
                 padding-top: 20px;}
 
-            .botões {
+            .botões{
                 display: grid;
                 grid-template-rows: auto auto auto;
                 column-gap: 25px;
@@ -34,6 +34,11 @@
                 text-align: left;
                 border-top: 1px solid gray;
             }
+
+            .forms{
+                display: grid;
+                grid-template-columns: auto;
+                width: 20%;}
         </style>
     </head>
 
@@ -55,13 +60,15 @@
             
             <div class="conteudo">
                 <form action="">
-                    <p>E-mail:</p>
-                    <input type="text">
-                    <p>Assunto:</p>
-                    <input type="text">
-                    <p>Descrição:</p>
-                    <input type="text"><br><br>
-                    <input type="submit">
+                    <div class="forms">
+                        <p>E-mail:</p>
+                        <input type="text">
+                        <p>Assunto:</p>
+                        <input type="text">
+                        <p>Descrição:</p>
+                        <input type="text">
+                        <input type="submit" style="margin-top: 50px;">
+                    </div>
                 </form>
             </div>
         </main>
